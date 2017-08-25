@@ -89,7 +89,7 @@ function pageThree (){
         incorrect++;
         console.log(incorrect);
     }}
-    
+
 // Display the scores from function pageThree
 
  	$("#correct").text(correct);
@@ -99,8 +99,36 @@ function pageThree (){
 
 
 
- 
 
 
 
 
+//   var countdownTimer = {
+//     //The run function sets an intervalthat runs the decrement function once a seconds
+
+//     numberCounter: 10,
+//     run: function() {
+//       intervalID = setInterval(countdownTimer.decrement,1000);
+//     },
+//     // The decrement function
+//     decrement: function() {
+//       countdownTimer.numberCounter --
+//       //Display the number in the timer Tag
+//       $(".timer").html("<h2>" + countdownTimer.numberCounter + "</h2>");
+//       // Once number hits zero...
+//       if (countdownTimer.numberCounter === 0) {
+//         // ...run the stop function
+//         countdownTimer.timerDone();
+//         //Alert the user that time is up!
+//         alert("You have failed your highness!")
+//       }
+//     },
+//     //The timerDone function
+//     timerDone: function () {
+//           clearInterval(intervalID);
+//           countdownRunning = false;
+//         }
+
+//     }
+
+// $(".timerButton").on("click", countdownTimer.run);

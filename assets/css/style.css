@@ -1,0 +1,106 @@
+body {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/9b/57/37/9b5737d16138b048fd93069c34990973.jpg); 
+}
+
+.main {
+	background-color: white;
+	padding: 100px;
+	margin: auto;
+	margin-top: 20px;
+	width: 300px;
+	height: 300px;
+	font-size: 20px;
+	font-weight: bold;
+	font-color: #ffffff;
+	text-align: center;
+}
+
+
+/*
+h1 {
+	font-size: 30px;
+
+}
+
+.game {
+	background-color: #c77131;
+	color: #fff;
+	width: 250px;
+	padding: 10px 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.instructions {
+	background-color: #fae6ce;
+	color: green;
+	width: 400px;
+	height: 300;
+	font-weight: bold;
+	padding: 20px 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+.numberToMatch {
+	background-color: #60c782;
+	width: 200px;
+	height: 100px;
+	padding: 5px 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.winsAndLosses {
+	background-color: #57fdfb;
+	width: 75px;
+	height: 100px;
+	margin-left: 20px;
+	padding: 5px 5px;
+	float: left;
+}
+
+.crystals {
+	clear: both;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	width: 450px;
+}
+
+#blueCrystal {
+	background: #fff;
+	height: 75px;
+	padding: 20px;
+}
+
+#redCrystal {
+	background: #fff;
+	height: 75px;
+	padding: 20px;
+}
+
+#yellowCrystal {
+	background: #fff;
+	height: 75px;
+	padding: 20px;
+}
+
+#greenCrystal {
+	background: #fff;
+	height: 75px;
+	padding: 20px;
+}
+
+.currentGameScore {
+	background-color: #33a196;
+	color: #ffffff;
+	width: 450px;
+	height: 100px;
+	padding: 5px 5px;
+	margin-left: 10px;
+	margin-bottom:10px;
+}
+*/
