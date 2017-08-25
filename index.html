@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Are you a Wizard or Muggle?</title>
+
+	<script src = "https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<!--
+
+	TITLE OF TRIVIA GAME
+
+	START BUTTON 
+
+	ON CLICK OF START BUTTON DISPLAY THE TRIVIA GAME:
+
+		- Countdown Timer
+		- Question with answers as radio buttons
+		- Done button
+
+	ON CLICK OF DONE BUTTON DISPLAY THE RESULTS PAGE:
+
+		- Correct Answers # Tally
+		- Wrong Answers # Tally
+		- Questions Left Unanswered # Tally 
+
+ --> 
+
+<!-- QUIZ TITLE -->
+
+	
+
+
+
+<container>
+
+	<div><h1>Are you a Wizard or Muggle?</h1></div>
+
+
+	<div class="start">
+
+		Get as many questions correct! Ready, set ...<br><br>
+		<button id="startbutton">START TRIVIA GAME!</button>
+
+	</div>
+
+	<div class="triviaGame">
+
+		<form id="test"></form>
+
+		<p><button id="endbutton">Wizard or Muggle?</button></p>
+
+	</div>
+
+</container>
+
+
+
+<!-- RESULTS PAGE -->
+
+<div class="results">
+
+	<h3>Correct Answers: 
+	<span id = "correct"></span>
+	</h3>
+
+	<h3>Incorrect Answers: 
+	<span id = "incorrect"></span>
+	</h3>
+
+	<h3>Unanswered Questions: 
+	<span id = "unanswered"></span>
+	</h3>
+
+</div>
+
+<script type = "text/javascript" src = "assets/javascript/quiz.js"></script>
+</body>
+</html>
