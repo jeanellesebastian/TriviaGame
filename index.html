@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Are you a Wizard or Muggle?</title>
-
+	<link rel = "stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel = "stylesheet" type="text/css" href="assets/css/style.css">
 	<script src = "https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,14 +28,8 @@
 		- Questions Left Unanswered # Tally 
 
  --> 
-
-<!-- QUIZ TITLE -->
-
 	
-
-
-
-<container>
+<div class="main">
 
 	<div><h1>Are you a Wizard or Muggle?</h1></div>
 
@@ -48,20 +43,17 @@
 
 	<div class="triviaGame">
 
+		<div id="timer">
+		</div>
+
 		<form id="test"></form>
 
 		<p><button id="endbutton">Wizard or Muggle?</button></p>
 
 	</div>
 
-</container>
-
-
-
-<!-- RESULTS PAGE -->
-
-<div class="results">
-
+	<div class="results">
+	<br><br><br>
 	<h3>Correct Answers: 
 	<span id = "correct"></span>
 	</h3>
@@ -75,6 +67,14 @@
 	</h3>
 
 </div>
+
+</div>
+
+
+
+<!-- RESULTS PAGE -->
+
+
 
 <script type = "text/javascript" src = "assets/javascript/quiz.js"></script>
 </body>
